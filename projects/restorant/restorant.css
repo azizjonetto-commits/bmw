@@ -1,0 +1,526 @@
+/* open-sans-regular - cyrillic_latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../../fonts/open-sans-v44-cyrillic_latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* open-sans-500 - cyrillic_latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 500;
+  src: url('../../fonts/open-sans-v44-cyrillic_latin-500.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* open-sans-600 - cyrillic_latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 600;
+  src: url('../../fonts/open-sans-v44-cyrillic_latin-600.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* open-sans-700 - cyrillic_latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../../fonts/open-sans-v44-cyrillic_latin-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* open-sans-800 - cyrillic_latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 800;
+  src: url('../../fonts/open-sans-v44-cyrillic_latin-800.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* tinos-regular - cyrillic_latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Tinos';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../../fonts/tinos-v26-cyrillic_latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* tinos-700 - cyrillic_latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Tinos';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../../fonts/tinos-v26-cyrillic_latin-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans';
+  box-sizing: border-box;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+body {
+  background-color: #f6f6f9;
+}
+
+.wrapper {
+  width: 1300px;
+  margin: 40px auto;
+  background-color: #fff;
+  padding: 40px 40px;
+  border-radius: 10px;
+}
+
+.intro
+{
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    flex-direction: column;
+    background-image: url(../../../../img/HERO\ IMG.png);
+    padding: 40px 40px;
+    gap: 150px;
+    position: relative;
+    height: 800px;
+}
+
+.navbar
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 37px;
+}
+
+.links
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.links_text
+{
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 19px;
+color: #FFFFFF;
+}
+
+.icon
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+hr
+{
+    height: 50px;
+    width: 0px;
+}
+
+.tel
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.tel_div
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+
+.tel_number
+{
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 25px;
+color: #FFFFFF;
+}
+
+.tel_text
+{
+width: 154px;
+height: 38px;
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 19px;
+color: #FFFFFF;
+}
+
+.tel_btn
+{
+width: 157px;
+height: 47px;
+background: #FF7400;
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 19px;
+color: #FFFFFF;
+border: none;
+}
+
+.logo
+{
+    margin-right: 268px;
+}
+
+.header
+{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+    margin-left: 150px;
+}
+
+.header_title
+{
+font-family: 'Tinos';
+font-style: normal;
+font-weight: 400;
+font-size: 50px;
+line-height: 57px;
+color: #D67E35;
+}
+
+.header_main_title
+{
+font-family: 'Tinos';
+font-style: normal;
+font-weight: 400;
+font-size: 80px;
+line-height: 92px;
+color: #D67E35;
+}
+
+.header_text
+{
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 25px;
+color: #FFFFFF;
+}
+
+.cards
+{
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    gap: 30px;
+    position: absolute;
+    bottom: -200px;
+}
+
+.card_title
+{
+font-family: 'Tinos';
+font-style: normal;
+font-weight: 400;
+font-size: 26px;
+line-height: 30px;
+color: #2C2C2C;
+}
+
+.card_text
+{
+width: 350px;
+font-family: 'Tinos';
+font-style: normal;
+font-weight: 400;
+font-size: 26px;
+line-height: 30px;
+text-align: center;
+color: #656363;
+}
+
+.card 
+{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    flex-direction: column;
+    gap: 15px;
+    background-color: white;
+    width: 349px;
+    height: 328px;
+    box-shadow: 10px 10px 10px gray;
+}
+
+.card_text2
+{
+width: 200px;
+font-family: 'Tinos';
+font-style: normal;
+font-weight: 400;
+font-size: 26px;
+line-height: 30px;
+text-align: center;
+color: #656363;
+}
+
+.history 
+{
+    margin-top: 400px;
+}
+
+.history_left
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.history_title
+{
+font-family: 'Tinos';
+font-style: normal;
+font-weight: 400;
+font-size: 54px;
+line-height: 62px;
+color: #000000;
+}
+
+.history_text
+{
+width: 444px;
+height: 217px;
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 22px;
+text-align: center;
+color: #656363;
+}
+
+.menu
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.menu_top
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 53px;
+}
+
+.menu_btm
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 53px;
+}
+
+.numbers
+{
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+line-height: 54px;
+text-align: center;
+color: #BC9060;
+}
+
+.names
+{
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 27px;
+text-align: center;
+color: #000000;
+}
+
+.history_top
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 125px;
+}
+
+.history_btm
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 50px 100px;
+  gap: 200px;
+  margin-top: 122px;
+  background-image: url(../../img/bg.png);
+}
+
+.history_btm_title
+{
+width: 601px;
+height: 120px;
+font-family: 'Tinos';
+font-style: normal;
+font-weight: 400;
+font-size: 52px;
+line-height: 60px;
+color: #D67E34;
+}
+
+.history_btm_text
+{
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 33px;
+color: #FFFFFF;
+}
+
+.history_left2
+{
+  display: flex;
+  align-items: start;
+  justify-content: start;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.bluda_title
+{
+font-family: 'Tinos';
+font-style: normal;
+font-weight: 400;
+font-size: 54px;
+line-height: 62px;
+color: #000000;
+margin: 135px 0px;
+text-align: center;
+}
+
+.bluda
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+
+.bluda_right
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.bluda_div
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+
+.gamburger
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-image: url(../../img/Mask\ Group\ \(7\).png);
+  height: 1036px;
+}
+
+.gamburger_title
+{
+font-family: 'Tinos';
+font-style: normal;
+font-weight: 400;
+font-size: 26px;
+line-height: 30px;
+color: #000000;
+}
+
+.gamburger_text
+{
+width: 226px;
+height: 37px;
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 22px;
+text-align: center;
+color: #000000;
+}
+
+.gamburgers
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 15px;
+  padding: 50px;
+  background-color: white;
+}
+
+.gamburger_div
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  margin-bottom: 300px;
+}
+
+.gamburger_maintitle
+{
+font-family: 'Tinos';
+font-style: normal;
+font-weight: 400;
+font-size: 54px;
+line-height: 62px;
+color: #FFFFFF;
+text-shadow: 5px 5px 4px rgba(0, 0, 0, 0.25);
+margin-bottom: 80px;
+margin-top: 200px;
+}

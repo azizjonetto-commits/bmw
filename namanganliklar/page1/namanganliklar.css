@@ -1,0 +1,466 @@
+/* rubik-regular - cyrillic_latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../../fonts/rubik/-v31-cyrillic_latin-regular.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* rubik-500 - cyrillic_latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  src: url("../../fonts/rubik-v31-cyrillic_latin-500.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* rubik-600 - cyrillic_latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 600;
+  src: url("../../fonts/rubik-v31-cyrillic_latin-600.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* rubik-700 - cyrillic_latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../../fonts/rubik-v31-cyrillic_latin-700.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* rubik-800 - cyrillic_latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 800;
+  src: url("../../fonts/rubik-v31-cyrillic_latin-800.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* rubik-900 - cyrillic_latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 900;
+  src: url("../../fonts/rubik-v31-cyrillic_latin-900.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Rubik";
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+body {
+  background-color: #f6f6f9;
+}
+.wrapper {
+  width: 1300px;
+  margin: 40px auto;
+  background-color: #f6f6f9;
+  padding: 40px 40px;
+  border-radius: 10px;
+}
+
+.navbar_fake {
+  padding: 10px;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  width: 306px;
+  height: 33px;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 33px;
+
+  color: #295091;
+}
+
+.navbar_fake_btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  width: 146px;
+  height: 40px;
+
+  background: linear-gradient(90deg, #1e96c8 15.07%, #37aee2 85.96%);
+  border-radius: 5px;
+
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+
+  color: #ffffff;
+}
+
+.navbar {
+  padding: 20px;
+  margin-top: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  background-color: white;
+}
+
+.navbar_text {
+  font-family: "Rubik";
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.navbar_btm_img {
+  margin-top: 20px;
+  width: 1300px;
+  margin-bottom: 50px;
+}
+
+.navbar_btm_img2 {
+  width: 1300px;
+}
+
+.facts_top {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+.facts_top_txt {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+.facts_text {
+  width: 380px;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 20px;
+  color: #202020;
+}
+
+.facts_btm {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+.notic {
+  margin-top: 70px;
+  background-color: #fcf3e0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 220px;
+  padding: 35px 33px;
+}
+
+.notic2 {
+  display: flex;
+  gap: 20px;
+}
+
+.notic_text {
+  margin-top: 20px;
+  width: 610px;
+  height: 26px;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+
+  color: #000000;
+}
+
+.notic_btn {
+  width: 264px;
+  height: 42px;
+  background: linear-gradient(
+    90deg,
+    #fe5c28 0%,
+    rgba(255, 139, 54, 0.9) 88.43%
+  );
+  border-radius: 5px;
+
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+
+  color: #ffffff;
+}
+
+.news {
+  margin-bottom: 35px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  gap: 20px;
+  flex-direction: row;
+}
+
+.news_title2 {
+  width: 198px;
+  height: 26px;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  margin-top: 70px;
+  color: #000000;
+}
+
+.news_div1 {
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.news_title {
+  width: 434px;
+  height: 42px;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 20px;
+
+  color: #202020;
+}
+
+.news_text {
+  width: 512px;
+  height: 55px;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  margin-top: 10px;
+  color: #434343;
+}
+
+.news_div2 {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+}
+
+.news_btn {
+  margin: auto;
+  display: block;
+  width: 211px;
+  height: 42px;
+
+  background: #295093;
+  border-radius: 5px;
+
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 20px;
+
+  color: #ffffff;
+}
+
+
+.dow
+{
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+.dow_title
+{
+width: 526px;
+height: 30px;
+font-family: 'Rubik';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 28px;
+color: #295093;
+}
+
+.dow_text
+{
+width: 515px;
+height: 44px;
+font-family: 'Rubik';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 21px;
+color: #333333;
+}
+
+.dow_img
+{
+  margin-left: 20px;
+}
+
+.footer_logo2
+{
+    display: inline-block;
+width: 170px;
+height: 20px;
+padding: 10px;
+background: #133C82;
+border-radius: 5px;
+
+}
+
+.footer_logo
+{
+    display: inline-block;
+width: 173px;
+height: 21px;
+font-family: 'Rubik';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 19px;
+color: #FFFFFF;
+}
+
+.footer
+{
+  padding: 20px 120px;
+  margin-top: 50px;
+  background-color: #295093;
+}
+
+.footer_text1
+{
+display: inline-block;
+width: 659px;
+height: 19px;
+font-family: 'Rubik';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 17px;
+
+color: #FFFFFF;
+}
+
+.footer_btn_text
+{ 
+text-align: center;
+width: 88px;
+height: 19px;
+font-family: 'Rubik';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 17px;
+color: #295093;
+}
+
+.footer_btn_img
+{
+width: 18px;
+height: 20px;
+margin-left: 10px;
+}
+
+.footer_btn
+{
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 8px;
+width: 132px;
+height: 38px;
+background: #FFFFFF;
+border-radius: 5px;
+align-items: center;
+}
+
+.footer_btn_img,
+.footer_btn_text
+{
+  vertical-align: middle;
+}
+
+
+.footer_top
+{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 50px;
+  margin-bottom: 30px;
+}
+
+
+.hr
+{
+width: 1200px;
+height: 3px;
+background: #133C82;
+margin-top: 30px;
+}
+
+
+.footer_botom
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  gap: 100px;
+}
+
+.footer_text2
+{
+width: 365px;
+height: 121px;
+margin-top: 10px;
+font-family: 'Rubik';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 17px;
+
+color: #FFFFFF;
+}
+
+.footer_text2,
+.footer_img1,
+.footer_img2
+{
+  vertical-align: middle;
+}

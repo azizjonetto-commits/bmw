@@ -1,0 +1,476 @@
+/* roboto-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/roboto-v51-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* roboto-500 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  src: url('../fonts/roboto-v51-latin-500.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* roboto-600 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 600;
+  src: url('../fonts/roboto-v51-latin-600.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* roboto-700 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../fonts/roboto-v51-latin-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* roboto-800 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 800;
+  src: url('../fonts/roboto-v51-latin-800.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* roboto-900 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 900;
+  src: url('../fonts/roboto-v51-latin-900.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* cardo-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Cardo';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/cardo-v21-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* cardo-italic - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Cardo';
+  font-style: italic;
+  font-weight: 400;
+  src: url('../fonts/cardo-v21-latin-italic.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* cardo-700 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Cardo';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../fonts/cardo-v21-latin-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto";
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+body {
+  background-color: #f6f6f9;
+}
+
+.wrapper {
+  width: 1300px;
+  margin: 40px auto;
+  background-color: #fff;
+  padding: 40px 40px;
+  border-radius: 10px;
+}
+
+.navbar
+{
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    gap: 300px;    
+    margin-bottom: 50px;
+}
+
+.navbar_div
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.navbar_text
+{
+    font-size: 20px;
+}
+
+.header
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 1300px;
+    height: 700px;
+    background-image: url(../../img2/IMAGE\ \(17\).png);
+    background-repeat: no-repeat;
+}
+
+.header_text
+{
+font-family: sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 27px;
+line-height: 38px;
+/* or 142% */
+text-align: center;
+letter-spacing: 0.2px;
+width: 807px;
+color: #FFFFFF;
+
+
+}
+
+.header_btn
+{
+  width: 204px;
+  height: 33px;
+  background: transparent;
+  border: 1px solid white;
+
+font-family: 'Cardo';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 20px;
+/* identical to box height, or 100% */
+text-align: center;
+margin-top: 40px;
+color: #FFFFFF;
+}
+
+.facts_text
+{
+font-family: sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 24px;
+letter-spacing: 0.2px;
+color: #000000;
+width: 150px;
+}
+
+.facts 
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.facts_div
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 22px;
+}
+
+.facts_btm
+{
+  background-image: url(../../img2/Frame\ \(24\).png);
+  width: 1300px;
+  height: 320px;
+  margin-bottom: 100px;
+}
+
+.banner 
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+
+.banner_title
+{
+font-family: sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 33px;
+line-height: 56px;
+
+color: #000000;
+
+
+}
+
+.banner_title2
+{
+font-family: 'Cardo';
+font-style: italic;
+font-weight: 400;
+font-size: 18px;
+line-height: 37px;
+color: #000000;
+}
+
+.banner_text
+{
+width: 437px;
+height: 92px;
+font-family: 'Cardo';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 31px;
+
+color: #525252;
+}
+
+.banner_shop
+{
+width: 85px;
+height: 22px;
+text-decoration: underline;
+}
+
+.banner_img
+{
+  width: 850px;
+  margin-top: 30px;
+}
+
+.banner_left
+{
+  display: flex;
+  align-items: end;
+  justify-content: end;
+  flex-direction: column;
+  text-align: right;
+  gap: 15px;
+}
+.banner_right
+{
+  display: flex;
+  align-items: start;
+  justify-content: start;
+  flex-direction: column;
+  text-align: left;
+  gap: 15px;
+}
+
+.insta
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  flex-direction: column;
+  margin-top: 100px;
+}
+.insta_imgs
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.insta_title
+{
+width: 404px;
+height: 39px;
+font-family: 'Cardo';
+font-style: normal;
+font-weight: 700;
+font-size: 30px;
+line-height: 39px;
+text-align: center;
+color: #3A3A3A;
+}
+
+.insta_text
+{
+width: 497px;
+height: 34px;
+font-family: 'Cardo';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 33px;
+text-align: center;
+color: #000000;
+}
+
+.motiv
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 40px;
+  margin-top: 135px;
+}
+
+.motiv_text
+{
+width: 1190px;
+height: 60px;
+font-family: 'Cardo';
+font-style: italic;
+font-weight: 400;
+font-size: 20px;
+line-height: 30px;
+text-align: center;
+color: #020202;
+}
+
+.motiv_text2
+{
+width: 176px;
+height: 21px;
+font-family: 'Cardo';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 21px;
+text-align: center;
+color: #000000;
+}
+
+.create
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.create_title
+{
+font-family: 'Cardo';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 35px;
+text-align: center;
+color: #000000;
+}
+
+.create_text
+{
+width: 283px;
+height: 56px;
+font-family: 'Cardo';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 28px;
+text-align: center;
+color: #000000; 
+}
+
+.more
+{
+font-family: 'Cardo';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 15px;
+text-align: center;
+text-decoration-line: underline;
+color: #000000;
+}
+
+.nimadir
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 135px;
+}
+
+.gallery
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 40px;
+  margin-top: 135px;
+}
+
+.gallery_text
+{
+font-family: 'Cardo';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 26px;
+text-align: center;
+letter-spacing: 0.3px;
+color: #454545;
+}
+
+.footer
+{
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  text-align: center;
+  gap: 100px;
+  padding: 45px 200px;
+  background-color: rgb(233, 233, 233);
+  margin-top: 100px;
+}
+
+.footer_text
+{
+font-family: 'Cardo';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 20px;
+text-align: center;
+color: #000000;
+}
+
+.footer_title
+{
+font-family: 'Cardo';
+font-style: normal;
+font-weight: 400;
+font-size: 21px;
+line-height: 21px;
+text-align: center;
+text-transform: uppercase;
+color: #000000;
+}
+
+.footer_div
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 15px;
+}

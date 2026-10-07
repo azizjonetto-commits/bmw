@@ -1,0 +1,287 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: serif;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+body {
+  background-color: rgb(216, 207, 207);
+}
+.wrapper {
+  width: 1920px;
+  margin: 40px auto;
+  background-color: rgb(236, 225, 205);
+  padding: 40px 40px;
+  border-radius: 10px;
+}
+.navbar {
+  align-items: center;
+  padding: 19.2px 32px;
+  background: #1a1410;
+}
+.navbar_text {
+  vertical-align: middle;
+  display: inline-block;
+  align-items: center;
+  margin-right: 32px;
+  margin-top: 19.2px;
+  color: wheat;
+}
+.navbar_text17 {
+  vertical-align: middle;
+  display: inline-block;
+  align-items: center;
+  margin-right: 32px;
+  margin-top: 19.2px;
+  margin-left: 1000px;
+  color: wheat;
+}
+.logo {
+  vertical-align: middle;
+  margin-top: 19.2px;
+  margin-left: 32px;
+  margin-right: 1119.66;
+  width: 84.45px;
+  height: 35.84px;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 22.4px;
+  line-height: 36px;
+  display: inline-block;
+  align-items: center;
+  letter-spacing: -0.5px;
+  color: #f2e9da;
+}
+
+.start_img {
+  box-sizing: border-box;
+  height: 197.85px;
+  margin-left: 32px;
+  margin-right: 40px;
+  margin-top: 151.82px;
+
+  background: #1a1410;
+  border: 1px solid #000000;
+  box-shadow: 0px 20px 50px rgba(26, 20, 16, 0.35);
+  border-radius: 10px;
+}
+
+.start {
+  margin-left: 500px;
+}
+
+.start_left,
+.start_right {
+  display: inline-block;
+}
+
+.start_title {
+  width: 320px;
+}
+.start_text {
+  margin-top: 20px;
+  padding: 0px 0px 6.39px;
+  width: 329px;
+  height: 83.39px;
+}
+
+.start_button {
+  font-size: 15px;
+  font-style: bolder;
+  height: 50px;
+  width: 200px;
+  border-radius: 10px;
+  background-color: #e08d3c;
+  left: 593.71px;
+}
+
+.title {
+  color: #e08d3c;
+}
+
+.brew_title {
+  margin-top: 120px;
+  margin-bottom: 40px;
+}
+
+.brew_div1,
+.brew_div2,
+.brew_div3 {
+  margin-left: 25px;
+  border-radius: 10px;
+  width: 275px;
+  height: 75px;
+  display: inline-block;
+  background-color: white;
+  padding: 20px;
+}
+
+.menu {
+  width: 570px;
+  margin: auto;
+  text-align: center;
+}
+
+.menu_title {
+  margin-top: 128px;
+  margin-bottom: 15px;
+}
+
+.menu_div {
+  text-align: start;
+}
+
+.menu_div_title {
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+.title1 {
+  margin-left: 182px;
+  display: inline-block;
+  color: #e08d3c;
+  margin-bottom: 20px;
+}
+.title2 {
+  margin-left: 165px;
+  display: inline-block;
+  color: #e08d3c;
+  margin-bottom: 20px;
+}
+.title3 {
+  margin-left: 25px;
+  display: inline-block;
+  color: #e08d3c;
+  margin-bottom: 20px;
+}
+.title4 {
+  margin-left: 167px;
+  display: inline-block;
+  color: #e08d3c;
+  margin-bottom: 20px;
+}
+
+.menu_div_text {
+  display: inline-block;
+}
+
+.turwak {
+  margin-left: 25px;
+}
+
+.retsept {
+  width: 640px;
+  text-align: center;
+  margin: auto;
+}
+
+.retsept_title {
+  margin-top: 128px;
+  margin-bottom: 35px;
+}
+
+.retsept2 {
+  text-align: start;
+}
+
+.bold {
+  font-weight: 900;
+}
+
+.retsept2_text {
+  margin-bottom: 16px;
+}
+
+.retsept2_text17 {
+  margin-bottom: 16px;
+  margin-top: 16px;
+}
+
+.retsept_div {
+  margin-top: 32px;
+  margin-bottom: 128px;
+  background-color: white;
+  border-radius: 10px;
+  padding-left: 20px;
+  padding-bottom: 16px;
+  padding-top: 16px;
+  padding-right: 52px;
+  border-left: 1px solid 88A375;
+}
+
+.Galereya_title {
+  margin-bottom: 40px;
+}
+
+.Galereya_img {
+  margin-left: 20px;
+}
+
+.stil_title {
+  margin-top: 128px;
+  margin-bottom: 15px;
+}
+.stil_text {
+  margin-top: 15px;
+  margin-bottom: 32px;
+}
+.stil_div1 {
+  border-radius: 10px;
+  text-align: start;
+  background-color: white;
+  width: 506px;
+  margin-top: 22px;
+  padding: 22px;
+}
+.stil_div_small {
+  margin-top: 10px;
+}
+.stil_div2 {
+  border-radius: 10px;
+  text-align: start;
+  background-color: white;
+  width: 506px;
+  margin-top: 22px;
+  padding: 22px;
+  padding-bottom: 112px;
+}
+
+.stil_left,
+.stil_right {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.stil_right {
+  margin-left: 20px;
+}
+
+.footer {
+  margin-top: 50px;
+  text-align: center;
+  background-color: #1a1410;
+  padding-top: 50px;
+  padding-bottom: 25px;
+}
+
+.footer_div1,
+.footer_div2,
+.footer_div3 {
+  vertical-align: middle;
+  display: inline-block;
+  text-align: start;
+  margin-left: 150px;
+}
+
+.footer_text {
+  color: #f2e9da;
+}
+
+.footer_img {
+  margin-top: 50px;
+}

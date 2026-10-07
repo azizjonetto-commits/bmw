@@ -1,0 +1,554 @@
+/* rubik-regular - cyrillic_latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../../fonts/rubik-v31-cyrillic_latin-regular.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* rubik-500 - cyrillic_latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  src: url("../../fonts/rubik-v31-cyrillic_latin-500.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* rubik-600 - cyrillic_latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 600;
+  src: url("../../fonts/rubik-v31-cyrillic_latin-600.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* rubik-700 - cyrillic_latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../../fonts/rubik-v31-cyrillic_latin-700.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* rubik-800 - cyrillic_latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 800;
+  src: url("../../fonts/rubik-v31-cyrillic_latin-800.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* rubik-900 - cyrillic_latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 900;
+  src: url("../../fonts/rubik-v31-cyrillic_latin-900.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Rubik";
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+body {
+  background-color: #f6f6f9;
+}
+.wrapper {
+  width: 1300px;
+  margin: 40px auto;
+  background-color: #f6f6f9;
+  padding: 40px 40px;
+  border-radius: 10px;
+}
+
+.navbar_fake {
+  padding: 10px;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  width: 306px;
+  height: 33px;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 33px;
+
+  color: #295091;
+}
+
+.navbar_fake_btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  width: 146px;
+  height: 40px;
+  border: none;
+  background: linear-gradient(90deg, #1e96c8 15.07%, #37aee2 85.96%);
+  border-radius: 5px;
+
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+
+  color: #ffffff;
+}
+
+.navbar {
+  padding: 20px;
+  margin-top: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  background-color: white;
+}
+
+.navbar_text {
+  font-family: "Rubik";
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.navbar_btm_img {
+  margin-top: 20px;
+  width: 1300px;
+  margin-bottom: 50px;
+}
+
+.reg_div
+{
+padding: 15px;
+box-sizing: border-box;
+width: 600px;
+height: 50px;
+left: 119px;
+top: 391px;
+background: #F1F1F1;
+opacity: 0.3;
+border: 2px solid #285193;
+border-radius: 5px;
+font-family: 'Rubik';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 21px;
+
+color: #888888;
+}
+
+
+.reg_div2
+{
+padding: 15px;
+box-sizing: border-box;
+width: 600px;
+height: 250px;
+left: 119px;
+top: 391px;
+background: #F1F1F1;
+opacity: 0.3;
+border: 2px solid #285193;
+border-radius: 5px;
+font-family: 'Rubik';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 21px;
+
+color: #888888;
+}
+
+
+.reg_left
+{
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.reg
+{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    gap: 200px;
+}
+
+.reg_img
+{
+    width: 300px;
+    height: 180px;
+}
+
+.reg_title
+{
+width: 178px;
+height: 30px;
+font-family: 'Rubik';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 28px;
+text-align: start;
+color: #000000;
+
+
+}
+
+
+.reg_div3
+{
+padding: 15px;
+box-sizing: border-box;
+width: 220px;
+height: 50px;
+left: 119px;
+top: 391px;
+background: #F1F1F1;
+opacity: 0.3;
+border: 2px solid #285193;
+border-radius: 5px;
+font-family: 'Rubik';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 21px;
+
+color: #888888;
+}
+
+
+.reg_btn
+{
+box-sizing: border-box;
+width: 221px;
+height: 50px;
+background: #295093;
+border: 2px solid rgba(40, 81, 147, 0.54);
+border-radius: 5px;
+font-family: 'Rubik';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 21px;
+color: #FFFFFF;
+}
+
+.footer_logo2
+{
+    display: inline-block;
+width: 170px;
+height: 20px;
+padding: 10px;
+background: #133C82;
+border-radius: 5px;
+
+}
+
+.footer_logo
+{
+    display: inline-block;
+width: 173px;
+height: 21px;
+font-family: 'Rubik';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 19px;
+color: #FFFFFF;
+}
+
+.footer
+{
+  padding: 20px 120px;
+  margin-top: 50px;
+  background-color: #295093;
+}
+
+.footer_text1
+{
+display: inline-block;
+width: 659px;
+height: 19px;
+font-family: 'Rubik';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 17px;
+
+color: #FFFFFF;
+}
+
+.footer_btn_text
+{ 
+text-align: center;
+width: 88px;
+height: 19px;
+font-family: 'Rubik';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 17px;
+color: #295093;
+}
+
+.footer_btn_img
+{
+width: 18px;
+height: 20px;
+margin-left: 10px;
+}
+
+.footer_btn
+{
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 8px;
+width: 132px;
+height: 38px;
+background: #FFFFFF;
+border-radius: 5px;
+align-items: center;
+}
+
+.footer_btn_img,
+.footer_btn_text
+{
+  vertical-align: middle;
+}
+
+
+.footer_top
+{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 50px;
+  margin-bottom: 30px;
+}
+
+
+.hr
+{
+width: 1200px;
+height: 3px;
+background: #133C82;
+margin-top: 30px;
+}
+
+
+.footer_botom
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  gap: 100px;
+}
+
+.footer_text2
+{
+width: 365px;
+height: 121px;
+margin-top: 10px;
+font-family: 'Rubik';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 17px;
+
+color: #FFFFFF;
+}
+
+.footer_text2,
+.footer_img1,
+.footer_img2
+{
+  vertical-align: middle;
+}
+
+.footer_btn_logo
+{
+  border: none;
+}
+
+.name
+{
+  width: 500px;
+  height: 30px;
+  padding: 20px;
+font-family: 'Rubik';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 21px;
+border: 2px solid #F1F1F1;
+border-radius: 10px;
+color: #888888;
+}
+
+.inputs
+{
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.inputs_title
+{
+font-family: 'Rubik';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 28px;
+color: #000000;
+margin-bottom: 12px;
+
+}
+
+.text
+{
+
+  width: 500px;
+  height: 250px;
+  padding: 20px;
+font-family: 'Rubik';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 21px;
+border: 2px solid #F1F1F1;
+border-radius: 10px;
+color: #888888;
+  text-align: start;
+  display: flex;
+  align-items: start;
+  justify-content: start;
+}
+
+.name2
+{
+  width: 220px;
+  height: 30px;
+  padding: 20px;
+font-family: 'Rubik';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 21px;
+border: 2px solid #F1F1F1;
+border-radius: 10px;
+color: #888888;
+}
+
+.kod
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.inputs_btn
+{
+font-family: 'Rubik';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 21px;
+color: #FFFFFF;
+width: 221px;
+height: 50px;
+background: #295093;
+border: 2px solid rgba(40, 81, 147, 0.54);
+border-radius: 5px;
+}
+
+.div
+{
+  display: flex;
+  align-items: start;
+  justify-content: start;
+  gap: 100px;
+}
+
+.post
+{
+  display: flex;
+  justify-content: end;
+  align-items: end;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px 23px;
+box-shadow: 0px 8px 9px rgba(57, 57, 57, 0.25);
+border-radius: 5px;
+border: 1px solid rgba(57, 57, 57, 0.25);
+}
+
+.post1
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 75px;
+}
+
+.post_text
+{
+font-family: 'Rubik';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 21px;
+color: #888888;
+}
+
+.apps
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 13px;
+}
+
+.post2
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 190px;
+}
+
+.post3
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 187px;
+}
+.post4
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}

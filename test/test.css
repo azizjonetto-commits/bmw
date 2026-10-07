@@ -1,0 +1,90 @@
+/* p
+{
+    text-align: center;
+    font-size: 40px;
+}
+p:hover
+{
+    color: red;
+    transition-property: color;
+    transition-duration: 1s;
+}
+
+p::before
+{
+    content: "salom";
+    font-size: 20px;
+    color: blue;
+}
+
+p::after
+{
+    content: "hello";
+    font-size: 20px;
+    color: red;
+} */
+
+/* ---------------------------------------------------------------------------------------- */
+/* 
+.card
+{
+    width: 300px;
+    height: 300px;
+    margin: auto;
+    border: 1px solid red;
+    background-color: aqua;
+}
+
+.card:hover
+{
+    transition-property: background-color;
+    background-color: blue;
+    transition-duration: 2s;
+    border-radius: 50%;
+    transition-timing-function: ease-in-out;
+    transition-delay: 0.5s;
+} */
+
+/* ---------------------------------------------------------------------------------------- */
+
+.navbar
+{
+    position: fixed;
+    width: 1200px;
+    border-radius: 20px;
+    padding: 10px 20px;
+    border: 1px solid;
+    margin: auto;
+}
+
+.navbar_list
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.section
+{
+    width: 1200px;
+    margin: auto;
+}
+
+.section1
+{
+    background-color: aqua;
+    height: 100vh;
+}
+.section2
+{
+    background-color: rgb(36, 209, 105);
+}
+.section3
+{
+    background-color: rgb(188, 11, 228);
+}
+.section4
+{
+    background-color: rgb(245, 198, 9);
+}

@@ -1,0 +1,797 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+body {
+  background-color: whitesmoke;
+}
+.wrapper {
+  width: 1300px;
+  margin: 40px auto;
+  background-color: white;
+  padding: 40px 40px;
+  border-radius: 10px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar_text {
+  display: inline-block;
+  margin-left: 20px;
+  text-transform: uppercase;
+  font-weight: 550;
+}
+
+.navbar_btn {
+  color: white;
+  font-weight: 600;
+  text-transform: uppercase;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 24px;
+  background: #cc1d24;
+  box-shadow:
+    0px 10px 15px -3px rgba(231, 0, 11, 0.1),
+    0px 4px 6px -4px rgba(231, 0, 11, 0.1);
+  border-radius: 3.35544e7px;
+}
+
+.logo {
+  margin-left: 120px;
+}
+
+.header {
+  margin-top: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 130px;
+}
+
+.header_title {
+  width: 461px;
+  height: 54px;
+
+  font-style: italic;
+  font-weight: 900;
+  font-size: 60px;
+  line-height: 54px;
+
+  display: flex;
+  align-items: center;
+  letter-spacing: -1.2px;
+
+  color: #1a1a1a;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.red {
+  color: #cc1d24;
+}
+
+.header_title2 {
+  margin-top: 20px;
+  margin-bottom: 25px;
+  width: 270px;
+  height: 120px;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 30px;
+  line-height: 33px;
+
+  display: flex;
+  align-items: center;
+  letter-spacing: -0.6px;
+  text-transform: uppercase;
+  color: #1a1a1a;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.header_text {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 14.875px 19.05px 16.255px 20px;
+
+  width: 420px;
+  max-width: 420px;
+  height: 105.13px;
+  background: rgba(249, 250, 251, 0.5);
+  border-radius: 0px 16px 16px 0px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.header_div {
+  border-left: 5px solid #cc1d24;
+  width: 420px;
+  height: 105px;
+  text-align: start;
+  align-items: center;
+}
+
+.logo2 {
+  width: 450px;
+  height: 480px;
+}
+
+.header_btn {
+  /* Button */
+
+  /* Auto layout */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 17px 40px 18.5px;
+  width: 215px;
+  height: 52.5px;
+  background: #cc1d24;
+  box-shadow:
+    0px 20px 25px -5px rgba(231, 0, 11, 0.2),
+    0px 8px 10px -6px rgba(231, 0, 11, 0.2);
+  border-radius: 3.35544e7px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+
+  font-style: normal;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+
+  color: #ffffff;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.header_btn2 {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 16px 40px;
+
+  width: 247px;
+  height: 53px;
+  background: #ffffff;
+  border: 2px solid #1a1a1a;
+  border-radius: 3.35544e7px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+
+  font-style: normal;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+
+  color: #1a1a1a;
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.header_btn_div {
+  margin-top: 40px;
+  display: flex;
+  gap: 20px;
+}
+
+.facts {
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+}
+
+.facts_text {
+  margin-bottom: 150px;
+  font-style: italic;
+  font-weight: 800;
+  font-size: 15px;
+  line-height: 13px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+
+  color: #333333;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.kompleks_title {
+    margin: auto;
+    margin-bottom: 15px;
+  width: 429px;
+  height: 45px;
+  font-style: italic;
+  font-weight: 900;
+  font-size: 36px;
+  line-height: 45px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: -0.72px;
+  text-transform: uppercase;
+  color: #1a1a1a;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.kompleks_title2 {
+  margin-top: 15px;
+  width: 350px;
+  height: 15px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 10px;
+  line-height: 15px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  margin: auto;
+  color: #99a1af;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.pros
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+.pros_left,
+.pros_right
+{
+  padding: 32px;
+}
+
+.pros_left_title
+{
+width: 314px;
+height: 28px;
+font-style: italic;
+font-weight: 900;
+font-size: 20px;
+line-height: 28px;
+display: flex;
+align-items: center;
+letter-spacing: -0.4px;
+text-transform: uppercase;
+color: #CC1D24;
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+}
+
+.pros_left_title2
+{
+width: 314px;
+margin-bottom: 25px;
+height: 14px;
+font-style: normal;
+font-weight: 700;
+font-size: 8.9px;
+line-height: 14px;
+display: flex;
+align-items: center;
+letter-spacing: 0.9px;
+text-transform: uppercase;
+color: #99A1AF;
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+}
+
+.pros_facts
+{
+margin-bottom: 20px;
+font-style: normal;
+font-weight: 700;
+font-size: 10.8px;
+line-height: 15px;
+display: flex;
+align-items: center;
+letter-spacing: -0.275px;
+text-transform: uppercase;
+color: #333333;
+flex: none;
+order: 1;
+flex-grow: 0;
+
+}
+
+.pros_right_title
+{
+width: 314px;
+height: 28px;
+font-style: italic;
+font-weight: 900;
+font-size: 20px;
+line-height: 28px;
+display: flex;
+align-items: center;
+letter-spacing: -0.4px;
+text-transform: uppercase;
+color: #CC1D24;
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+}
+
+.pros_right_title2
+{
+  /* Vitamin va Minerallar */
+margin-bottom: 20px;
+width: 314px;
+height: 14px;
+font-style: normal;
+font-weight: 700;
+font-size: 8.9px;
+line-height: 14px;
+/* identical to box height, or 152% */
+display: flex;
+align-items: center;
+letter-spacing: 0.9px;
+text-transform: uppercase;
+color: #99A1AF;
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+}
+
+.dieta
+{
+  text-align: start;
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.dieta_title
+{
+
+/* Qabul qilish juda oson */
+
+width: 502px;
+height: 84px;
+font-style: italic;
+font-weight: 900;
+font-size: 42px;
+line-height: 42px;
+/* or 100% */
+display: flex;
+align-items: center;
+letter-spacing: -0.84px;
+text-transform: uppercase;
+
+/* gipertofort-landing-uz.vercel.app/Cod Gray */
+color: #1A1A1A;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+}
+
+.dieta_title2
+{
+/* Gipertofort qon bosimi nazorati uchun */
+
+width: 502px;
+height: 15px;
+
+font-style: normal;
+font-weight: 700;
+font-size: 10px;
+line-height: 15px;
+/* identical to box height, or 150% */
+display: flex;
+align-items: center;
+letter-spacing: 3px;
+text-transform: uppercase;
+
+/* gipertofort-landing-uz.vercel.app/Gray Chateau */
+color: #99A1AF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+}
+
+.dieta_l_title
+{
+  /* KUNIGA 1 MAHAL */
+
+width: 102px;
+height: 17px;
+
+
+font-style: normal;
+font-weight: 700;
+font-size: 11px;
+line-height: 16px;
+/* identical to box height, or 150% */
+display: flex;
+align-items: center;
+letter-spacing: 0.55px;
+text-transform: uppercase;
+
+/* gipertofort-landing-uz.vercel.app/Cod Gray */
+color: #1A1A1A;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+}
+
+.dieta_text
+{
+  /* Ovqat paytida yoki ovqatdan keyin iste'mol qiling */
+
+width: 257px;
+height: 27px; 
+font-style: normal;
+font-weight: 700;
+font-size: 10.3px;
+line-height: 13px;
+/* or 127% */
+display: flex;
+align-items: center;
+text-transform: uppercase;
+
+/* gipertofort-landing-uz.vercel.app/Pale Sky */
+color: #6A7282;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+}
+
+.red_title
+{
+  /* TAVSIYA ETILGAN DAVOMIYLIK KURSI */
+
+width: 116px;
+height: 23px;
+
+font-style: normal;
+font-weight: 700;
+font-size: 9px;
+line-height: 11px;
+/* or 125% */
+display: flex;
+align-items: center;
+letter-spacing: 2px;
+text-transform: uppercase;
+
+/* gipertofort-landing-uz.vercel.app/Cardinal */
+color: #CC1D24;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+}
+
+.kun30
+{
+  /* 30 kun */
+
+width: 110px;
+height: 30px;
+
+font-style: italic;
+font-weight: 900;
+font-size: 30px;
+line-height: 30px;
+/* identical to box height, or 100% */
+display: flex;
+align-items: center;
+letter-spacing: -0.6px;
+text-transform: uppercase;
+
+/* gipertofort-landing-uz.vercel.app/Cod Gray */
+color: #1A1A1A;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+}
+
+
+.organs_title
+{
+  text-align: center;
+  margin-bottom: 100px;
+  margin: auto;
+}
+
+.organs_title2
+{
+  margin-top: 100px;
+  font-size: 50px;
+}
+
+
+.salomatlik
+{
+  margin-left: 20px;
+  font-size: 35px;
+  margin-top: 50px;
+}
+
+.organs_l_title
+{
+/* Qon aylanishini yaxshilash va arterial bosimni barqarorlashtirish uchun tavsiya etilgan mashqlar */
+
+width: 435px;
+height: 28px;
+font-style: normal;
+font-weight: 700;
+font-size: 11px;
+line-height: 14px;
+/* or 125% */
+display: flex;
+align-items: center;
+letter-spacing: 2px;
+text-transform: uppercase;
+
+/* gipertofort-landing-uz.vercel.app/Gray Chateau */
+color: #99A1AF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+}
+
+.organs2 
+{
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.clear_title
+{
+  /* MUTAXASSISLAR TAVSIYALARI */
+
+width: 459px;
+height: 36px;
+
+font-style: normal;
+font-weight: 900;
+font-size: 30px;
+line-height: 36px;
+/* identical to box height, or 120% */
+display: flex;
+align-items: center;
+letter-spacing: -0.84px;
+text-transform: uppercase;
+
+/* gipertofort-landing-uz.vercel.app/Cod Gray */
+color: #1A1A1A;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+}
+
+.bold
+{
+  font-weight: 900;
+}
+
+.clears
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.clears_img
+{
+  width: 400px;
+}
+
+.clears_btn
+{
+margin: auto;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 16px 48px;
+
+width: 400px;
+height: 150px;
+background: #CC1D24;
+box-shadow: 0px 20px 25px -5px rgba(231, 0, 11, 0.2), 0px 8px 10px -6px rgba(231, 0, 11, 0.2);
+border-radius: 3.35544e+07px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* SOG'LIQNI TIKLASHNI BOSHLASH */
+
+width: 262px;
+height: 17px;
+
+
+font-style: normal;
+/* identical to box height, or 150% */
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 3px;
+text-transform: uppercase;
+color: #FFFFFF;
+flex: none;
+order: 0;
+flex-grow: 0;
+
+}
+
+.buy
+{
+  margin-top: 150px;
+  align-items: center;
+}
+
+.buy_title
+{
+  /* Heading 2 → ГИПЕРТОФОРТ */
+
+width: 308px;
+height: 40px;
+
+font-style: italic;
+font-weight: 900;
+font-size: 40px;
+line-height: 40px;
+/* identical to box height, or 100% */
+display: flex;
+align-items: center;
+letter-spacing: -0.8px;
+text-transform: uppercase;
+
+/* gipertofort-landing-uz.vercel.app/Cod Gray */
+color: #1A1A1A;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+}
+
+.buy_btn
+{ 
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 17.5px 32px 18.5px;
+
+width: 200px;
+height: 100x;
+
+/* gipertofort-landing-uz.vercel.app/Cardinal */
+background: #CC1D24;
+box-shadow: 0px 20px 25px -5px rgba(231, 0, 11, 0.1), 0px 8px 10px -6px rgba(231, 0, 11, 0.1);
+border-radius: 3.35544e+07px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+
+/* Sotib olish */
+
+width: 73px;
+height: 15px;
+
+font-style: normal;
+font-weight: 700;
+font-size: 10px;
+line-height: 15px;
+/* identical to box height, or 150% */
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 1px;
+text-transform: uppercase;
+
+/* gipertofort-landing-uz.vercel.app/White */
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+}
+
+
+.footer
+{
+  background-color: black;
+  height: 400px;
+  margin: auto;
+}
